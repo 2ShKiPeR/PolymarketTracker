@@ -18,8 +18,5 @@ public class InMemoryPriceCache implements PriceCache {
         cache.put(key, value);
     }
 
-    @Override
-    public boolean containsKey(String key) {
-        return cache.containsKey(key);
-    }
+
 }

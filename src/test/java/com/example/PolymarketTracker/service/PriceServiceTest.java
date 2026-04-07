@@ -2,7 +2,6 @@ package com.example.PolymarketTracker.service;
 
 import com.example.PolymarketTracker.cache.PriceCache;
 import com.example.PolymarketTracker.model.PriceUpdate;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -12,7 +11,6 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import java.math.BigDecimal;
 
 import static org.mockito.Mockito.*;
-import static org.junit.jupiter.api.Assertions.*;
 
 @ExtendWith(MockitoExtension.class)
 class PriceServiceTest {

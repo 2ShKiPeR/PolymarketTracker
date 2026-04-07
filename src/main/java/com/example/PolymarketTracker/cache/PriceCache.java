@@ -5,5 +5,4 @@ import java.math.BigDecimal;
 public interface PriceCache {
     BigDecimal get(String key);
     void put(String key, BigDecimal value);
-    boolean containsKey(String key);
 }
