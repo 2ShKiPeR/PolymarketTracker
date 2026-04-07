@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: polymarket-tracker
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/polymarket
+    username: postgres
+    password: postgres
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: false
+
+polymarket:
+  asset-ids:
+    - "98022490269692409998126496127597032490334070080325855126491859374983463996227"
+    - "28493232765398065355167823085467251786598823199883843618758827595183142049436"
+    - "109681959945973300464568698402968596289258214226684818748321941747028805721376"
+
+logging:
+  level:
+    com.example.PolymarketTracker: DEBUG

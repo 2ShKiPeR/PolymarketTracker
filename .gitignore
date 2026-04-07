@@ -1,0 +1,44 @@
+# Compiled files
+*.class
+target/
+out/
+
+# IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+.mvn/
+mvnw
+mvnw.cmd
+.idea_modules/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Spring Boot
+application-local.properties
+application-dev.properties
+
+# Docker
+docker-compose.override.yml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test files
+*.bak
+
+# Environment
+.env
+*.pem
+*.key
+
+# Database
+*.db
+*.sqlite
